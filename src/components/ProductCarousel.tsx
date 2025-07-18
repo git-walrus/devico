@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel';
 import { Button } from './ui/button';
 import { ShoppingCart } from 'lucide-react';
-import floralDressImage from 'figma:asset/1f7bc20e9158dab1f6508095714bb1e6a5519bd5.png';
-import linenDressImage from 'figma:asset/0f51a648c5b312cb29fbd1d770d22277b6068e28.png';
-import linenShirtImage from 'figma:asset/73f963a2bd6f2324deab57db4e4d4a0dee416f8d.png';
-import floralShirtImage from 'figma:asset/a94d2fc6e5dd33a3b130f6e9cb2a1d54183a83bb.png';
-import pinkShirtImage from 'figma:asset/0dc86b927258a2701b2e789a29b272c41f80cc17.png';
-import whiteLinenShirtImage from 'figma:asset/db47fad774bd0ed23a089d5e76346852ef226585.png';
+import floralDressImage from '..src/assets/prd/floral-dress.jpg';
+import linenDressImage from '..src/assets/prd/linen-dress.jpg';
+import linenShirtImage from '..src/assets/prd/linen-shirt.jpg';
+import floralShirtImage from '..src/assets/prd/floral-shirt.jpg';
+import pinkShirtImage from '..src/assets/prd/pink-shirt.jpg';
+import whiteLinenShirtImage from '..src/assets/prd/white-linen-shirt.jpg';
 
 interface Product {
   id: number;

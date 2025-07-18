@@ -1,12 +1,12 @@
 import { useEffect, useState, useCallback } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious, CarouselApi } from './ui/carousel';
 import { ImageWithFallback } from './figma/ImageWithFallback';
-import brandLabelsImage from 'figma:asset/328ba20a323da6282888cfb8765b461fc58d99f3.png';
-import burgundyDressImage from 'figma:asset/9d6122b86edc01703cf0c741f59b44358830b785.png';
-import naturalCollectionImage from 'figma:asset/71a3f0147b5abd54c904d2db01d8a062d9561ed0.png';
-import designProcessImage from 'figma:asset/e5d98b0b26b8b0bb80bf20a839ddd47e7fbae87f.png';
-import fabricDetailImage from 'figma:asset/61f547961a82728fcc6f437ea960d239ced2242f.png';
-import lifestyleImage from 'figma:asset/ae6b43ce4ada11645bfe58a2d1a994ebe2f8e931.png';
+import signatureCraftImg from '../assets/img/signature-craft.jpg';
+import contemporaryStyleImg from '../assets/img/contemporary-style.jpg';
+import naturalCollectionImage from '../assets/img/natural-design.jpg';
+import designProcessImage from '../assets/img/artistic-design.jpg';
+import fabricDetailImage from '../assets/img/luxurious-texture.jpg';
+import lifestyleImage from '../assets/img/confident-style.jpg';
 
 export function PhotoCarousel() {
   const [api, setApi] = useState<CarouselApi>();
@@ -15,7 +15,7 @@ export function PhotoCarousel() {
   const photos = [
     {
       id: 1,
-      url: brandLabelsImage,
+      url: signatureCraftImg,
       description: {
         line1: "Signature",
         line2: "Craftsmanship"
@@ -25,7 +25,7 @@ export function PhotoCarousel() {
     },
     {
       id: 2,
-      url: burgundyDressImage,
+      url: contemporaryStyleImg,
       description: {
         line1: "Contemporary",
         line2: "Style"
