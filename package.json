@@ -1,6 +1,7 @@
 {
   "name": "deviCo-app",
   "version": "0.0.1",
+  "homepage": "https://your-username.github.io/devico/",
   "private": true,
   "scripts": {
     "dev": "vite",
