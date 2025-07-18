@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel';
 import { Button } from './ui/button';
 import { ShoppingCart } from 'lucide-react';
-import floralDressImage from '..src/assets/prd/floral-dress.jpg';
-import linenDressImage from '..src/assets/prd/linen-dress.jpg';
-import linenShirtImage from '..src/assets/prd/linen-shirt.jpg';
-import floralShirtImage from '..src/assets/prd/floral-shirt.jpg';
-import pinkShirtImage from '..src/assets/prd/pink-shirt.jpg';
-import whiteLinenShirtImage from '..src/assets/prd/white-linen-shirt.jpg';
+import floralDressImage from '../assets/prd/floral-dress.jpg';
+import linenDressImage from '../assets/prd/linen-dress.jpg';
+import linenShirtImage from '../assets/prd/linen-shirt.jpg';
+import floralShirtImage from '../assets/prd/floral-shirt.jpg';
+import pinkShirtImage from '../assets/prd/pink-shirt.jpg';
+import whiteLinenShirtImage from '../assets/prd/white-linen-shirt.jpg';
 
 interface Product {
   id: number;
